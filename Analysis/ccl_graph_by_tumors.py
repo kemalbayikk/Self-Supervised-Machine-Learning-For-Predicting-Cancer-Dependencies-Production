@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # File paths for the original and predicted data
 csv_data_path = './data_dep_updated_2.csv'
-txt_data_path = './ccl_predicted_data_best_model_vae_split_2.txt'   # TXT dosyası için düzgün yolu girin
+txt_data_path = './ccl_predicted_data_best_model_vae_split_2.txt'
 
 # Loading the original and predicted data
 csv_data = pd.read_csv(csv_data_path)
